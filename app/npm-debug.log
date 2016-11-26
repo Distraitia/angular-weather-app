@@ -1,0 +1,97 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.14.12
+3 info using node@v4.3.2
+4 verbose readDependencies loading dependencies from /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app/package.json
+5 verbose install where, deps [ '/Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app',
+5 verbose install   [ 'bower',
+5 verbose install     'http-server',
+5 verbose install     'jasmine-core',
+5 verbose install     'karma',
+5 verbose install     'karma-chrome-launcher',
+5 verbose install     'karma-firefox-launcher',
+5 verbose install     'karma-jasmine',
+5 verbose install     'protractor' ] ]
+6 verbose install where, peers [ '/Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app',
+6 verbose install   [] ]
+7 verbose installManyTop reading for lifecycle /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app/package.json
+8 info preinstall angular-phonecat@0.0.0
+9 verbose installManyTop reading scoped package data from /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app/node_modules/bower/package.json
+10 verbose installManyTop reading scoped package data from /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app/node_modules/http-server/package.json
+11 verbose installManyTop reading scoped package data from /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app/node_modules/jasmine-core/package.json
+12 verbose installManyTop reading scoped package data from /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app/node_modules/karma/package.json
+13 verbose installManyTop reading scoped package data from /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app/node_modules/karma-chrome-launcher/package.json
+14 verbose installManyTop reading scoped package data from /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app/node_modules/karma-firefox-launcher/package.json
+15 verbose installManyTop reading scoped package data from /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app/node_modules/karma-jasmine/package.json
+16 verbose installManyTop reading scoped package data from /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app/node_modules/protractor/package.json
+17 verbose readDependencies loading dependencies from /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app/package.json
+18 verbose targetResolver reading package data from /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app/node_modules/bower/package.json
+19 verbose targetResolver reading package data from /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app/node_modules/http-server/package.json
+20 verbose targetResolver reading package data from /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app/node_modules/jasmine-core/package.json
+21 verbose targetResolver reading package data from /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app/node_modules/karma/package.json
+22 verbose targetResolver reading package data from /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app/node_modules/karma-chrome-launcher/package.json
+23 verbose targetResolver reading package data from /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app/node_modules/karma-firefox-launcher/package.json
+24 verbose targetResolver reading package data from /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app/node_modules/karma-jasmine/package.json
+25 verbose targetResolver reading package data from /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app/node_modules/protractor/package.json
+26 verbose targetResolver reading package data from /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app/node_modules/.bin/bower/package.json
+27 verbose targetResolver reading package data from /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app/node_modules/.bin/hs/package.json
+28 verbose targetResolver reading package data from /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app/node_modules/.bin/http-server/package.json
+29 verbose targetResolver reading package data from /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app/node_modules/.bin/karma/package.json
+30 verbose targetResolver reading package data from /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app/node_modules/.bin/protractor/package.json
+31 verbose targetResolver reading package data from /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app/node_modules/.bin/webdriver-manager/package.json
+32 verbose already installed skipping karma-firefox-launcher@^0.1.7 /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app
+33 verbose already installed skipping karma-jasmine@^0.3.8 /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app
+34 verbose already installed skipping protractor@^4.0.9 /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app
+35 verbose already installed skipping bower@^1.7.7 /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app
+36 verbose already installed skipping http-server@^0.9.0 /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app
+37 verbose already installed skipping jasmine-core@^2.4.1 /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app
+38 verbose already installed skipping karma@^0.13.22 /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app
+39 verbose already installed skipping karma-chrome-launcher@^0.2.3 /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app
+40 silly install resolved []
+41 info build /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app
+42 info linkStuff angular-phonecat@0.0.0
+43 silly linkStuff angular-phonecat@0.0.0 has /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject as its parent node_modules
+44 verbose linkBins angular-phonecat@0.0.0
+45 verbose linkMans angular-phonecat@0.0.0
+46 verbose rebuildBundles angular-phonecat@0.0.0
+47 verbose rebuildBundles [ '.bin',
+47 verbose rebuildBundles   'bower',
+47 verbose rebuildBundles   'http-server',
+47 verbose rebuildBundles   'jasmine-core',
+47 verbose rebuildBundles   'karma',
+47 verbose rebuildBundles   'karma-chrome-launcher',
+47 verbose rebuildBundles   'karma-firefox-launcher',
+47 verbose rebuildBundles   'karma-jasmine',
+47 verbose rebuildBundles   'protractor' ]
+48 info install angular-phonecat@0.0.0
+49 info postinstall angular-phonecat@0.0.0
+50 verbose unsafe-perm in lifecycle true
+51 info angular-phonecat@0.0.0 Failed to exec postinstall script
+52 verbose stack Error: angular-phonecat@0.0.0 postinstall: `bower install`
+52 verbose stack Exit status 1
+52 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:214:16)
+52 verbose stack     at emitTwo (events.js:87:13)
+52 verbose stack     at EventEmitter.emit (events.js:172:7)
+52 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+52 verbose stack     at emitTwo (events.js:87:13)
+52 verbose stack     at ChildProcess.emit (events.js:172:7)
+52 verbose stack     at maybeClose (internal/child_process.js:821:16)
+52 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+53 verbose pkgid angular-phonecat@0.0.0
+54 verbose cwd /Users/Armchair/Sites/1-PortfolioSite/AngularWeatherAppProject/app
+55 error Darwin 14.5.0
+56 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+57 error node v4.3.2
+58 error npm  v2.14.12
+59 error code ELIFECYCLE
+60 error angular-phonecat@0.0.0 postinstall: `bower install`
+60 error Exit status 1
+61 error Failed at the angular-phonecat@0.0.0 postinstall script 'bower install'.
+61 error This is most likely a problem with the angular-phonecat package,
+61 error not with npm itself.
+61 error Tell the author that this fails on your system:
+61 error     bower install
+61 error You can get their info via:
+61 error     npm owner ls angular-phonecat
+61 error There is likely additional logging output above.
+62 verbose exit [ 1, true ]
