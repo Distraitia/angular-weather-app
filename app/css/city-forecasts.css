@@ -40,7 +40,10 @@ img.forecast-img,
 	.city-name { display: block; }
 }
 
-.panel.hourly-info { display: none; }
+.panel.hourly-info {
+	display: none;
+	margin-bottom: 0;
+}
 .weather-is-showing .panel.hourly-info {
 	display: block;
 }
