@@ -1,0 +1,40 @@
+body {
+	/*color: #ffffff;*/
+	/*background-image: url("../img/weather-bg-light.png");*/
+	background-size: cover;
+	/*font-family: 'Roboto', sans-serif;*/
+}
+* { box-sizing: border-box; }
+
+h2,h3,h4,h3 img {
+	width: 100%;
+	clear: both;
+	display: block;
+	float: none;
+	position: static !important;
+}
+
+.row { margin: 0; }
+.row.forecast {
+	background: #ffffff;
+	/*border-radius: 10px;*/
+	margin: 10px;
+	color: #000000;
+}
+
+.forecast h2 {
+	margin: 0;
+}
+.forecast h3,
+img.forecast-img,
+.forecast h4 {
+	width: auto;
+	float: left;
+	clear: right;
+	border: none;
+}
+.forecast h4 { float: none; }
+
+.city-name {
+	color: gold;
+}
