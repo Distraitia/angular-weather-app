@@ -3,7 +3,6 @@
   <head>
     <link href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css" rel="stylesheet" />
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
-    <!-- <link href="css/codecademy-4.css" rel="stylesheet" /> -->
 
     <!-- Include the core AngularJS library -->
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
@@ -25,18 +24,16 @@
       </div>
 
       <div class="main col-sm-6 col-sm-offset-3" ng-controller="ForecastController">
-        <!-- <div class="row">
-          <city-forecast city="city" ng-repeat="forecast in forecasts"></city-forecast>
-        </div> -->
         <div class="row forecast panel panel-primary" ng-repeat="forecast in forecasts.list">
           <div class="panel-heading">
             <h2>Forecast for <span class="city-name">{{ forecast.name }}, {{ forecast.sys.country }}</span></h2>
           </div>
-            <!-- <h3> -->
-              <img class="img-thumbnail forecast-img" src="http://openweathermap.org/img/w/{{ forecast.weather[0].icon }}.png" />
-            <!-- </h3> -->
+          <div class="panel-body">
+            <img class="img-thumbnail forecast-img" src="http://openweathermap.org/img/w/{{ forecast.weather[0].icon }}.png" />
             <h4>Average Temperature: {{ forecast.main.temp | number:0 }}&deg;F</h4>
             <h4>Wind Strength: {{ forecast.wind.speed }}mph</h4>
+          </div>
+          <location></location>
         </div>
       </div>
 
@@ -50,7 +47,7 @@
     <script src="js/controllers/ForecastController.js"></script>
 
     <!-- Directives -->
-    <!-- <script src="js/directives/cityForecast.js"></script> -->
+    <script src="js/directives/location.js"></script>
 
     <!-- Services -->
     <script src="js/services/forecastService.js"></script>

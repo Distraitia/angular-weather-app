@@ -1,8 +1,6 @@
 body {
-	/*color: #ffffff;*/
-	/*background-image: url("../img/weather-bg-light.png");*/
 	background-size: cover;
-	/*font-family: 'Roboto', sans-serif;*/
+	padding: 0;
 }
 * { box-sizing: border-box; }
 
@@ -17,14 +15,12 @@ h2,h3,h4,h3 img {
 .row { margin: 0; }
 .row.forecast {
 	background: #ffffff;
-	/*border-radius: 10px;*/
 	margin: 10px;
 	color: #000000;
 }
 
-.forecast h2 {
-	margin: 0;
-}
+.forecast h2 { margin: 0; }
+
 .forecast h3,
 img.forecast-img,
 .forecast h4 {
@@ -33,8 +29,18 @@ img.forecast-img,
 	clear: right;
 	border: none;
 }
-.forecast h4 { float: none; }
+.forecast h4 {
+	float: none;
+	margin-top: 0;
+}
 
-.city-name {
-	color: gold;
+.city-name { color: gold; }
+
+@media screen and (max-width: 480px) {
+	.city-name { display: block; }
+}
+
+.panel.hourly-info { display: none; }
+.weather-is-showing .panel.hourly-info {
+	display: block;
 }
