@@ -1,1 +1,1 @@
-var app = angular.module('CityForecastsApp', []); // from Codecademy
+var app = angular.module('CityForecastsApp', []);
