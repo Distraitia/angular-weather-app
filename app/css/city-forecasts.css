@@ -34,6 +34,12 @@ img.forecast-img,
 	margin-top: 0;
 }
 
+.hourly-forecast .forecast-img {
+	display: inline-block;
+	float: none;
+	margin: 0 auto;
+}
+
 .city-name { color: gold; }
 
 @media screen and (max-width: 480px) {
@@ -47,3 +53,13 @@ img.forecast-img,
 .weather-is-showing .panel.hourly-info {
 	display: block;
 }
+
+.row.hourly-forecast {
+	width: 20%;
+	margin: 0;
+	padding: 5px;
+	float: left;
+	text-align: center;
+	background: #eeefff;
+}
+.hourly-forecast * { float: none; position: relative; }

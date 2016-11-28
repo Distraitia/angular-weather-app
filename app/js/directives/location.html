@@ -1,4 +1,37 @@
 <a class="" ng-click="showMore()">See hourly</a>
 <div class="panel panel-footer hourly-info">
-  Location hourly forecast
+  <div class="row hourly-forecast">
+    <span class="hour">Xpm</span>
+    <img class="img-thumbnail forecast-img" src="http://openweathermap.org/img/w/50n.png" />
+    <h5>{{ (forecast.main.temp_min + forecast.main.temp_max) / 2 }}&deg;F, {{ forecast.weather[0].main }}</h5>
+    <h5>Wind Strength: {{ forecast.wind.speed }}mph</h5>
+  </div>
+
+  <div class="row hourly-forecast">
+    <span class="hour">Xpm</span>
+    <img class="img-thumbnail forecast-img" src="http://openweathermap.org/img/w/50n.png" />
+    <h5>{{ (forecast.main.temp_min + forecast.main.temp_max) / 2 }}&deg;F, {{ forecast.weather[0].main }}</h5>
+    <h5>Wind Strength: {{ forecast.wind.speed }}mph</h5>
+  </div>
+
+  <div class="row hourly-forecast">
+    <span class="hour">Xpm</span>
+    <img class="img-thumbnail forecast-img" src="http://openweathermap.org/img/w/50n.png" />
+    <h5>{{ (forecast.main.temp_min + forecast.main.temp_max) / 2 }}&deg;F, {{ forecast.weather[0].main }}</h5>
+    <h5>Wind Strength: {{ forecast.wind.speed }}mph</h5>
+  </div>
+
+  <div class="row hourly-forecast">
+    <span class="hour">Xpm</span>
+    <img class="img-thumbnail forecast-img" src="http://openweathermap.org/img/w/50n.png" />
+    <h5>{{ (forecast.main.temp_min + forecast.main.temp_max) / 2 }}&deg;F, {{ forecast.weather[0].main }}</h5>
+    <h5>Wind Strength: {{ forecast.wind.speed }}mph</h5>
+  </div>
+
+  <div class="row hourly-forecast">
+    <span class="hour">Xpm</span>
+    <img class="img-thumbnail forecast-img" src="http://openweathermap.org/img/w/50n.png" />
+    <h5>{{ (forecast.main.temp_min + forecast.main.temp_max) / 2 }}&deg;F, {{ forecast.weather[0].main }}</h5>
+    <h5>Wind Strength: {{ forecast.wind.speed }}mph</h5>
+  </div>
 </div>
