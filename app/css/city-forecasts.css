@@ -46,11 +46,11 @@ img.forecast-img,
 	.city-name { display: block; }
 }
 
-.panel.hourly-info {
+.hourly-info {
 	display: none;
 	margin-bottom: 0;
 }
-.weather-is-showing .panel.hourly-info {
+.weather-is-showing .hourly-info {
 	display: block;
 }
 
@@ -60,6 +60,5 @@ img.forecast-img,
 	padding: 5px;
 	float: left;
 	text-align: center;
-	background: #eeefff;
 }
 .hourly-forecast * { float: none; position: relative; }

@@ -30,10 +30,12 @@
           </div>
           <div class="panel-body">
             <img class="img-thumbnail forecast-img" src="http://openweathermap.org/img/w/{{ forecast.weather[0].icon }}.png" />
-            <h4>{{ (forecast.main.temp_min + forecast.main.temp_max) / 2 }}&deg;F, {{ forecast.weather[0].main }}</h4>
+            <h4>{{ (forecast.main.temp_min + forecast.main.temp_max) / 2 | number:0 }}&deg;F, {{ forecast.weather[0].main }}</h4>
             <h4>Wind Strength: {{ forecast.wind.speed }}mph</h4>
           </div>
-          <location></location>
+          <div class="panel panel-footer">
+            <location></location>
+          </div>
         </div>
       </div>
 
